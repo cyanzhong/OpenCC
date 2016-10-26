@@ -7,6 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8735B1D41DC0675100344232 /* OpenCCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A792CE1DC05510009B8DB8 /* OpenCCKit.framework */; };
+		8735B1D51DC0681F00344232 /* hk2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A7938E1DC055F6009B8DB8 /* hk2s.json */; };
+		8735B1D61DC0681F00344232 /* s2hk.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A7938F1DC055F6009B8DB8 /* s2hk.json */; };
+		8735B1D71DC0681F00344232 /* s2t.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793901DC055F6009B8DB8 /* s2t.json */; };
+		8735B1D81DC0681F00344232 /* s2tw.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793911DC055F6009B8DB8 /* s2tw.json */; };
+		8735B1D91DC0681F00344232 /* s2twp.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793921DC055F6009B8DB8 /* s2twp.json */; };
+		8735B1DA1DC0681F00344232 /* t2hk.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793931DC055F6009B8DB8 /* t2hk.json */; };
+		8735B1DB1DC0681F00344232 /* t2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793941DC055F6009B8DB8 /* t2s.json */; };
+		8735B1DC1DC0681F00344232 /* t2tw.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793951DC055F6009B8DB8 /* t2tw.json */; };
+		8735B1DD1DC0681F00344232 /* tw2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793961DC055F6009B8DB8 /* tw2s.json */; };
+		8735B1DE1DC0681F00344232 /* tw2sp.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793971DC055F6009B8DB8 /* tw2sp.json */; };
+		8735B1DF1DC0681F00344232 /* hk2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A7938E1DC055F6009B8DB8 /* hk2s.json */; };
+		8735B1E01DC0681F00344232 /* s2hk.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A7938F1DC055F6009B8DB8 /* s2hk.json */; };
+		8735B1E11DC0681F00344232 /* s2t.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793901DC055F6009B8DB8 /* s2t.json */; };
+		8735B1E21DC0681F00344232 /* s2tw.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793911DC055F6009B8DB8 /* s2tw.json */; };
+		8735B1E31DC0681F00344232 /* s2twp.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793921DC055F6009B8DB8 /* s2twp.json */; };
+		8735B1E41DC0681F00344232 /* t2hk.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793931DC055F6009B8DB8 /* t2hk.json */; };
+		8735B1E51DC0681F00344232 /* t2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793941DC055F6009B8DB8 /* t2s.json */; };
+		8735B1E61DC0681F00344232 /* t2tw.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793951DC055F6009B8DB8 /* t2tw.json */; };
+		8735B1E71DC0681F00344232 /* tw2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793961DC055F6009B8DB8 /* tw2s.json */; };
+		8735B1E81DC0681F00344232 /* tw2sp.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793971DC055F6009B8DB8 /* tw2sp.json */; };
+		8735B1E91DC0682300344232 /* HKVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793731DC055EB009B8DB8 /* HKVariants.txt */; };
+		8735B1EA1DC0682300344232 /* HKVariantsPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793741DC055EB009B8DB8 /* HKVariantsPhrases.txt */; };
+		8735B1EB1DC0682300344232 /* HKVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793751DC055EB009B8DB8 /* HKVariantsRevPhrases.txt */; };
+		8735B1EC1DC0682300344232 /* JPVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793761DC055EB009B8DB8 /* JPVariants.txt */; };
+		8735B1ED1DC0682300344232 /* STCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793771DC055EB009B8DB8 /* STCharacters.txt */; };
+		8735B1EE1DC0682300344232 /* STPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793781DC055EB009B8DB8 /* STPhrases.txt */; };
+		8735B1EF1DC0682300344232 /* TSCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793791DC055EB009B8DB8 /* TSCharacters.txt */; };
+		8735B1F01DC0682300344232 /* TSPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937A1DC055EB009B8DB8 /* TSPhrases.txt */; };
+		8735B1F11DC0682300344232 /* TWPhrasesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937B1DC055EB009B8DB8 /* TWPhrasesIT.txt */; };
+		8735B1F21DC0682300344232 /* TWPhrasesName.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937C1DC055EB009B8DB8 /* TWPhrasesName.txt */; };
+		8735B1F31DC0682300344232 /* TWPhrasesOther.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937D1DC055EB009B8DB8 /* TWPhrasesOther.txt */; };
+		8735B1F41DC0682300344232 /* TWVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937E1DC055EB009B8DB8 /* TWVariants.txt */; };
+		8735B1F51DC0682300344232 /* TWVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937F1DC055EB009B8DB8 /* TWVariantsRevPhrases.txt */; };
+		8735B1F61DC0682600344232 /* HKVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793731DC055EB009B8DB8 /* HKVariants.txt */; };
+		8735B1F71DC0682600344232 /* HKVariantsPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793741DC055EB009B8DB8 /* HKVariantsPhrases.txt */; };
+		8735B1F81DC0682600344232 /* HKVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793751DC055EB009B8DB8 /* HKVariantsRevPhrases.txt */; };
+		8735B1F91DC0682600344232 /* JPVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793761DC055EB009B8DB8 /* JPVariants.txt */; };
+		8735B1FA1DC0682600344232 /* STCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793771DC055EB009B8DB8 /* STCharacters.txt */; };
+		8735B1FB1DC0682600344232 /* STPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793781DC055EB009B8DB8 /* STPhrases.txt */; };
+		8735B1FC1DC0682600344232 /* TSCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793791DC055EB009B8DB8 /* TSCharacters.txt */; };
+		8735B1FD1DC0682600344232 /* TSPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937A1DC055EB009B8DB8 /* TSPhrases.txt */; };
+		8735B1FE1DC0682600344232 /* TWPhrasesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937B1DC055EB009B8DB8 /* TWPhrasesIT.txt */; };
+		8735B1FF1DC0682600344232 /* TWPhrasesName.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937C1DC055EB009B8DB8 /* TWPhrasesName.txt */; };
+		8735B2001DC0682600344232 /* TWPhrasesOther.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937D1DC055EB009B8DB8 /* TWPhrasesOther.txt */; };
+		8735B2011DC0682600344232 /* TWVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937E1DC055EB009B8DB8 /* TWVariants.txt */; };
+		8735B2021DC0682600344232 /* TWVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937F1DC055EB009B8DB8 /* TWVariantsRevPhrases.txt */; };
 		87A792BB1DC054ED009B8DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A792BA1DC054ED009B8DB8 /* AppDelegate.swift */; };
 		87A792BD1DC054ED009B8DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A792BC1DC054ED009B8DB8 /* ViewController.swift */; };
 		87A792BF1DC054ED009B8DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A792BE1DC054ED009B8DB8 /* Assets.xcassets */; };
@@ -53,29 +100,6 @@
 		87A793671DC055DB009B8DB8 /* TextDictTestBase.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 87A793281DC055DB009B8DB8 /* TextDictTestBase.hpp */; };
 		87A7936D1DC055DB009B8DB8 /* UTF8StringSlice.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 87A7932F1DC055DB009B8DB8 /* UTF8StringSlice.hpp */; };
 		87A793701DC055DB009B8DB8 /* UTF8Util.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 87A793321DC055DB009B8DB8 /* UTF8Util.hpp */; };
-		87A793801DC055EB009B8DB8 /* HKVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793731DC055EB009B8DB8 /* HKVariants.txt */; };
-		87A793811DC055EB009B8DB8 /* HKVariantsPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793741DC055EB009B8DB8 /* HKVariantsPhrases.txt */; };
-		87A793821DC055EB009B8DB8 /* HKVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793751DC055EB009B8DB8 /* HKVariantsRevPhrases.txt */; };
-		87A793831DC055EB009B8DB8 /* JPVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793761DC055EB009B8DB8 /* JPVariants.txt */; };
-		87A793841DC055EB009B8DB8 /* STCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793771DC055EB009B8DB8 /* STCharacters.txt */; };
-		87A793851DC055EB009B8DB8 /* STPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793781DC055EB009B8DB8 /* STPhrases.txt */; };
-		87A793861DC055EB009B8DB8 /* TSCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793791DC055EB009B8DB8 /* TSCharacters.txt */; };
-		87A793871DC055EB009B8DB8 /* TSPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937A1DC055EB009B8DB8 /* TSPhrases.txt */; };
-		87A793881DC055EB009B8DB8 /* TWPhrasesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937B1DC055EB009B8DB8 /* TWPhrasesIT.txt */; };
-		87A793891DC055EB009B8DB8 /* TWPhrasesName.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937C1DC055EB009B8DB8 /* TWPhrasesName.txt */; };
-		87A7938A1DC055EB009B8DB8 /* TWPhrasesOther.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937D1DC055EB009B8DB8 /* TWPhrasesOther.txt */; };
-		87A7938B1DC055EB009B8DB8 /* TWVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937E1DC055EB009B8DB8 /* TWVariants.txt */; };
-		87A7938C1DC055EB009B8DB8 /* TWVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937F1DC055EB009B8DB8 /* TWVariantsRevPhrases.txt */; };
-		87A793981DC055F6009B8DB8 /* hk2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A7938E1DC055F6009B8DB8 /* hk2s.json */; };
-		87A793991DC055F6009B8DB8 /* s2hk.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A7938F1DC055F6009B8DB8 /* s2hk.json */; };
-		87A7939A1DC055F6009B8DB8 /* s2t.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793901DC055F6009B8DB8 /* s2t.json */; };
-		87A7939B1DC055F6009B8DB8 /* s2tw.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793911DC055F6009B8DB8 /* s2tw.json */; };
-		87A7939C1DC055F6009B8DB8 /* s2twp.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793921DC055F6009B8DB8 /* s2twp.json */; };
-		87A7939D1DC055F6009B8DB8 /* t2hk.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793931DC055F6009B8DB8 /* t2hk.json */; };
-		87A7939E1DC055F6009B8DB8 /* t2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793941DC055F6009B8DB8 /* t2s.json */; };
-		87A7939F1DC055F6009B8DB8 /* t2tw.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793951DC055F6009B8DB8 /* t2tw.json */; };
-		87A793A01DC055F6009B8DB8 /* tw2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793961DC055F6009B8DB8 /* tw2s.json */; };
-		87A793A11DC055F6009B8DB8 /* tw2sp.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793971DC055F6009B8DB8 /* tw2sp.json */; };
 		87A793A21DC05675009B8DB8 /* BinaryDict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87A792F51DC055DB009B8DB8 /* BinaryDict.cpp */; };
 		87A793A31DC0567B009B8DB8 /* Segmentation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87A7931D1DC055DB009B8DB8 /* Segmentation.cpp */; };
 		87A793A41DC0568B009B8DB8 /* Conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87A792FF1DC055DB009B8DB8 /* Conversion.cpp */; };
@@ -264,6 +288,7 @@
 		87A793EA1DC058E8009B8DB8 /* xTextMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xTextMatcher.swift; sourceTree = "<group>"; };
 		87A793EB1DC058E8009B8DB8 /* xTextModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xTextModifier.swift; sourceTree = "<group>"; };
 		87A793EC1DC058E8009B8DB8 /* xTextProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xTextProtocol.swift; sourceTree = "<group>"; };
+		87CEAF6C1DC05AF8003B6265 /* XcodeExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XcodeExtension-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +311,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8735B1D41DC0675100344232 /* OpenCCKit.framework in Frameworks */,
 				87A793D71DC058AB009B8DB8 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,10 +358,9 @@
 				87A792F41DC055DB009B8DB8 /* src */,
 				87A793721DC055EB009B8DB8 /* dictionary */,
 				87A7938D1DC055F6009B8DB8 /* config */,
-				87A792D01DC05510009B8DB8 /* OpenCCKit.h */,
 				87A793B21DC05713009B8DB8 /* OpenCCService.h */,
 				87A793B31DC05713009B8DB8 /* OpenCCService.mm */,
-				87A792D11DC05510009B8DB8 /* Info.plist */,
+				87CEAF6B1DC05A2A003B6265 /* Supporting Files */,
 			);
 			path = OpenCCKit;
 			sourceTree = "<group>";
@@ -507,6 +532,7 @@
 		87A793D91DC058AB009B8DB8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				87CEAF6C1DC05AF8003B6265 /* XcodeExtension-Bridging-Header.h */,
 				87A793DF1DC058AB009B8DB8 /* Info.plist */,
 				87A793DA1DC058AB009B8DB8 /* XcodeExtension.entitlements */,
 			);
@@ -531,6 +557,15 @@
 				87A792BE1DC054ED009B8DB8 /* Assets.xcassets */,
 				87A792C01DC054ED009B8DB8 /* Main.storyboard */,
 				87A792C31DC054ED009B8DB8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87CEAF6B1DC05A2A003B6265 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A792D01DC05510009B8DB8 /* OpenCCKit.h */,
+				87A792D11DC05510009B8DB8 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -668,6 +703,7 @@
 					87A793D31DC058AB009B8DB8 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = TCKG8FBVG6;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -697,8 +733,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8735B1FA1DC0682600344232 /* STCharacters.txt in Resources */,
+				8735B1FC1DC0682600344232 /* TSCharacters.txt in Resources */,
 				87A792BF1DC054ED009B8DB8 /* Assets.xcassets in Resources */,
+				8735B1DD1DC0681F00344232 /* tw2s.json in Resources */,
+				8735B2021DC0682600344232 /* TWVariantsRevPhrases.txt in Resources */,
+				8735B2001DC0682600344232 /* TWPhrasesOther.txt in Resources */,
+				8735B1FD1DC0682600344232 /* TSPhrases.txt in Resources */,
+				8735B1D61DC0681F00344232 /* s2hk.json in Resources */,
+				8735B1DB1DC0681F00344232 /* t2s.json in Resources */,
+				8735B1DA1DC0681F00344232 /* t2hk.json in Resources */,
+				8735B1DC1DC0681F00344232 /* t2tw.json in Resources */,
+				8735B1F61DC0682600344232 /* HKVariants.txt in Resources */,
+				8735B1FE1DC0682600344232 /* TWPhrasesIT.txt in Resources */,
+				8735B1DE1DC0681F00344232 /* tw2sp.json in Resources */,
+				8735B1F71DC0682600344232 /* HKVariantsPhrases.txt in Resources */,
+				8735B1FB1DC0682600344232 /* STPhrases.txt in Resources */,
+				8735B1D51DC0681F00344232 /* hk2s.json in Resources */,
+				8735B1FF1DC0682600344232 /* TWPhrasesName.txt in Resources */,
+				8735B1D81DC0681F00344232 /* s2tw.json in Resources */,
+				8735B1F81DC0682600344232 /* HKVariantsRevPhrases.txt in Resources */,
+				8735B1D91DC0681F00344232 /* s2twp.json in Resources */,
+				8735B1D71DC0681F00344232 /* s2t.json in Resources */,
+				8735B1F91DC0682600344232 /* JPVariants.txt in Resources */,
 				87A792C21DC054ED009B8DB8 /* Main.storyboard in Resources */,
+				8735B2011DC0682600344232 /* TWVariants.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,29 +765,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87A793851DC055EB009B8DB8 /* STPhrases.txt in Resources */,
-				87A793841DC055EB009B8DB8 /* STCharacters.txt in Resources */,
-				87A7939B1DC055F6009B8DB8 /* s2tw.json in Resources */,
-				87A793A11DC055F6009B8DB8 /* tw2sp.json in Resources */,
-				87A793811DC055EB009B8DB8 /* HKVariantsPhrases.txt in Resources */,
-				87A7939F1DC055F6009B8DB8 /* t2tw.json in Resources */,
-				87A793821DC055EB009B8DB8 /* HKVariantsRevPhrases.txt in Resources */,
-				87A7938C1DC055EB009B8DB8 /* TWVariantsRevPhrases.txt in Resources */,
-				87A793871DC055EB009B8DB8 /* TSPhrases.txt in Resources */,
-				87A7939D1DC055F6009B8DB8 /* t2hk.json in Resources */,
-				87A793991DC055F6009B8DB8 /* s2hk.json in Resources */,
-				87A793881DC055EB009B8DB8 /* TWPhrasesIT.txt in Resources */,
-				87A793981DC055F6009B8DB8 /* hk2s.json in Resources */,
-				87A7939A1DC055F6009B8DB8 /* s2t.json in Resources */,
-				87A793861DC055EB009B8DB8 /* TSCharacters.txt in Resources */,
-				87A7938B1DC055EB009B8DB8 /* TWVariants.txt in Resources */,
-				87A793A01DC055F6009B8DB8 /* tw2s.json in Resources */,
-				87A793891DC055EB009B8DB8 /* TWPhrasesName.txt in Resources */,
-				87A793831DC055EB009B8DB8 /* JPVariants.txt in Resources */,
-				87A7938A1DC055EB009B8DB8 /* TWPhrasesOther.txt in Resources */,
-				87A7939C1DC055F6009B8DB8 /* s2twp.json in Resources */,
-				87A793801DC055EB009B8DB8 /* HKVariants.txt in Resources */,
-				87A7939E1DC055F6009B8DB8 /* t2s.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -736,6 +772,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8735B1EC1DC0682300344232 /* JPVariants.txt in Resources */,
+				8735B1EA1DC0682300344232 /* HKVariantsPhrases.txt in Resources */,
+				8735B1E51DC0681F00344232 /* t2s.json in Resources */,
+				8735B1DF1DC0681F00344232 /* hk2s.json in Resources */,
+				8735B1E61DC0681F00344232 /* t2tw.json in Resources */,
+				8735B1F31DC0682300344232 /* TWPhrasesOther.txt in Resources */,
+				8735B1F21DC0682300344232 /* TWPhrasesName.txt in Resources */,
+				8735B1E21DC0681F00344232 /* s2tw.json in Resources */,
+				8735B1F01DC0682300344232 /* TSPhrases.txt in Resources */,
+				8735B1E01DC0681F00344232 /* s2hk.json in Resources */,
+				8735B1F11DC0682300344232 /* TWPhrasesIT.txt in Resources */,
+				8735B1EB1DC0682300344232 /* HKVariantsRevPhrases.txt in Resources */,
+				8735B1EE1DC0682300344232 /* STPhrases.txt in Resources */,
+				8735B1EF1DC0682300344232 /* TSCharacters.txt in Resources */,
+				8735B1E31DC0681F00344232 /* s2twp.json in Resources */,
+				8735B1F51DC0682300344232 /* TWVariantsRevPhrases.txt in Resources */,
+				8735B1ED1DC0682300344232 /* STCharacters.txt in Resources */,
+				8735B1E41DC0681F00344232 /* t2hk.json in Resources */,
+				8735B1E11DC0681F00344232 /* s2t.json in Resources */,
+				8735B1E81DC0681F00344232 /* tw2sp.json in Resources */,
+				8735B1E71DC0681F00344232 /* tw2s.json in Resources */,
+				8735B1E91DC0682300344232 /* HKVariants.txt in Resources */,
+				8735B1F41DC0682300344232 /* TWVariants.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -943,6 +1002,7 @@
 		87A792D81DC05510009B8DB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -968,6 +1028,7 @@
 		87A792D91DC05510009B8DB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -993,6 +1054,7 @@
 		87A793E41DC058AB009B8DB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = XcodeExtension/XcodeExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1004,6 +1066,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.cyan.opencc.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeExtension/XcodeExtension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1011,6 +1075,7 @@
 		87A793E51DC058AB009B8DB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = XcodeExtension/XcodeExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1022,6 +1087,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.cyan.opencc.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeExtension/XcodeExtension-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

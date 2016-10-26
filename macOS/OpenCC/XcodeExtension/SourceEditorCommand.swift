@@ -9,12 +9,30 @@
 import Foundation
 import XcodeKit
 
-class SourceEditorCommand: NSObject, XCSourceEditorCommand {
+extension String {
     
-    func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: @escaping (Error?) -> Void ) -> Void {
-        // Implement your command here, invoking the completion handler when done. Pass it nil on success, and an NSError on failure.
-        
-        completionHandler(nil)
+    func convert(type: OpenCCServiceConverterType) -> String {
+        if let service = OpenCCService(converterType: type) {
+            return service.convert(self)
+        } else {
+            return self
+        }
     }
     
+    func s2t() -> String {
+        return self.convert(type: .S2T)
+    }
+    
+    func t2s() -> String {
+        return self.convert(type: .T2S)
+    }
+}
+
+class SourceEditorCommand: xTextCommand {
+    override func handlers() -> Dictionary<String, xTextModifyHandler> {
+        return [
+            "traditional": { text -> String in text.s2t() },
+            "simplified": { text -> String in text.t2s() }
+        ]
+    }
 }

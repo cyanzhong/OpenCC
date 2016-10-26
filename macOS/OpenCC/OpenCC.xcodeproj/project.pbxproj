@@ -94,6 +94,15 @@
 		87A793B11DC056F7009B8DB8 /* DictGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87A7930E1DC055DB009B8DB8 /* DictGroup.cpp */; };
 		87A793B41DC05713009B8DB8 /* OpenCCService.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A793B21DC05713009B8DB8 /* OpenCCService.h */; };
 		87A793B51DC05713009B8DB8 /* OpenCCService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 87A793B31DC05713009B8DB8 /* OpenCCService.mm */; };
+		87A793D71DC058AB009B8DB8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A793D61DC058AB009B8DB8 /* Cocoa.framework */; };
+		87A793DC1DC058AB009B8DB8 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A793DB1DC058AB009B8DB8 /* SourceEditorExtension.swift */; };
+		87A793DE1DC058AB009B8DB8 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A793DD1DC058AB009B8DB8 /* SourceEditorCommand.swift */; };
+		87A793E31DC058AB009B8DB8 /* XcodeExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 87A793D41DC058AB009B8DB8 /* XcodeExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		87A793ED1DC058E8009B8DB8 /* xHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A793E81DC058E8009B8DB8 /* xHelper.swift */; };
+		87A793EE1DC058E8009B8DB8 /* xTextCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A793E91DC058E8009B8DB8 /* xTextCommand.swift */; };
+		87A793EF1DC058E8009B8DB8 /* xTextMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A793EA1DC058E8009B8DB8 /* xTextMatcher.swift */; };
+		87A793F01DC058E8009B8DB8 /* xTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A793EB1DC058E8009B8DB8 /* xTextModifier.swift */; };
+		87A793F11DC058E8009B8DB8 /* xTextProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A793EC1DC058E8009B8DB8 /* xTextProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +112,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 87A792CD1DC05510009B8DB8;
 			remoteInfo = OpenCCKit;
+		};
+		87A793E01DC058AB009B8DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A792AF1DC054ED009B8DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A793D31DC058AB009B8DB8;
+			remoteInfo = XcodeExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -116,6 +132,17 @@
 				87A792D61DC05510009B8DB8 /* OpenCCKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A793E21DC058AB009B8DB8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				87A793E31DC058AB009B8DB8 /* XcodeExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -226,6 +253,17 @@
 		87A793971DC055F6009B8DB8 /* tw2sp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tw2sp.json; sourceTree = "<group>"; };
 		87A793B21DC05713009B8DB8 /* OpenCCService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCCService.h; sourceTree = "<group>"; };
 		87A793B31DC05713009B8DB8 /* OpenCCService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCCService.mm; sourceTree = "<group>"; };
+		87A793D41DC058AB009B8DB8 /* XcodeExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XcodeExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A793D61DC058AB009B8DB8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		87A793DA1DC058AB009B8DB8 /* XcodeExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XcodeExtension.entitlements; sourceTree = "<group>"; };
+		87A793DB1DC058AB009B8DB8 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		87A793DD1DC058AB009B8DB8 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		87A793DF1DC058AB009B8DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A793E81DC058E8009B8DB8 /* xHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xHelper.swift; sourceTree = "<group>"; };
+		87A793E91DC058E8009B8DB8 /* xTextCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xTextCommand.swift; sourceTree = "<group>"; };
+		87A793EA1DC058E8009B8DB8 /* xTextMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xTextMatcher.swift; sourceTree = "<group>"; };
+		87A793EB1DC058E8009B8DB8 /* xTextModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xTextModifier.swift; sourceTree = "<group>"; };
+		87A793EC1DC058E8009B8DB8 /* xTextProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xTextProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +282,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87A793D11DC058AB009B8DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A793D71DC058AB009B8DB8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -252,6 +298,8 @@
 			children = (
 				87A792CF1DC05510009B8DB8 /* OpenCCKit */,
 				87A792B91DC054ED009B8DB8 /* OpenCC */,
+				87A793D81DC058AB009B8DB8 /* XcodeExtension */,
+				87A793D51DC058AB009B8DB8 /* Frameworks */,
 				87A792B81DC054ED009B8DB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -261,6 +309,7 @@
 			children = (
 				87A792B71DC054ED009B8DB8 /* OpenCC.app */,
 				87A792CE1DC05510009B8DB8 /* OpenCCKit.framework */,
+				87A793D41DC058AB009B8DB8 /* XcodeExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,9 +319,7 @@
 			children = (
 				87A792BA1DC054ED009B8DB8 /* AppDelegate.swift */,
 				87A792BC1DC054ED009B8DB8 /* ViewController.swift */,
-				87A792BE1DC054ED009B8DB8 /* Assets.xcassets */,
-				87A792C01DC054ED009B8DB8 /* Main.storyboard */,
-				87A792C31DC054ED009B8DB8 /* Info.plist */,
+				87A793F21DC05934009B8DB8 /* Supporting Files */,
 			);
 			path = OpenCC;
 			sourceTree = "<group>";
@@ -438,6 +485,56 @@
 			path = config;
 			sourceTree = "<group>";
 		};
+		87A793D51DC058AB009B8DB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87A793D61DC058AB009B8DB8 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87A793D81DC058AB009B8DB8 /* XcodeExtension */ = {
+			isa = PBXGroup;
+			children = (
+				87A793E71DC058E8009B8DB8 /* xLibrary */,
+				87A793DB1DC058AB009B8DB8 /* SourceEditorExtension.swift */,
+				87A793DD1DC058AB009B8DB8 /* SourceEditorCommand.swift */,
+				87A793D91DC058AB009B8DB8 /* Supporting Files */,
+			);
+			path = XcodeExtension;
+			sourceTree = "<group>";
+		};
+		87A793D91DC058AB009B8DB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A793DF1DC058AB009B8DB8 /* Info.plist */,
+				87A793DA1DC058AB009B8DB8 /* XcodeExtension.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87A793E71DC058E8009B8DB8 /* xLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				87A793E81DC058E8009B8DB8 /* xHelper.swift */,
+				87A793E91DC058E8009B8DB8 /* xTextCommand.swift */,
+				87A793EA1DC058E8009B8DB8 /* xTextMatcher.swift */,
+				87A793EB1DC058E8009B8DB8 /* xTextModifier.swift */,
+				87A793EC1DC058E8009B8DB8 /* xTextProtocol.swift */,
+			);
+			path = xLibrary;
+			sourceTree = "<group>";
+		};
+		87A793F21DC05934009B8DB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A792BE1DC054ED009B8DB8 /* Assets.xcassets */,
+				87A792C01DC054ED009B8DB8 /* Main.storyboard */,
+				87A792C31DC054ED009B8DB8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -500,11 +597,13 @@
 				87A792B41DC054ED009B8DB8 /* Frameworks */,
 				87A792B51DC054ED009B8DB8 /* Resources */,
 				87A792DA1DC05510009B8DB8 /* Embed Frameworks */,
+				87A793E21DC058AB009B8DB8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				87A792D41DC05510009B8DB8 /* PBXTargetDependency */,
+				87A793E11DC058AB009B8DB8 /* PBXTargetDependency */,
 			);
 			name = OpenCC;
 			productName = OpenCC;
@@ -529,6 +628,23 @@
 			productReference = 87A792CE1DC05510009B8DB8 /* OpenCCKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		87A793D31DC058AB009B8DB8 /* XcodeExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A793E61DC058AB009B8DB8 /* Build configuration list for PBXNativeTarget "XcodeExtension" */;
+			buildPhases = (
+				87A793D01DC058AB009B8DB8 /* Sources */,
+				87A793D11DC058AB009B8DB8 /* Frameworks */,
+				87A793D21DC058AB009B8DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeExtension;
+			productName = XcodeExtension;
+			productReference = 87A793D41DC058AB009B8DB8 /* XcodeExtension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -545,6 +661,11 @@
 						ProvisioningStyle = Automatic;
 					};
 					87A792CD1DC05510009B8DB8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TCKG8FBVG6;
+						ProvisioningStyle = Automatic;
+					};
+					87A793D31DC058AB009B8DB8 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = TCKG8FBVG6;
 						ProvisioningStyle = Automatic;
@@ -566,6 +687,7 @@
 			targets = (
 				87A792CD1DC05510009B8DB8 /* OpenCCKit */,
 				87A792B61DC054ED009B8DB8 /* OpenCC */,
+				87A793D31DC058AB009B8DB8 /* XcodeExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -610,6 +732,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87A793D21DC058AB009B8DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -646,6 +775,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87A793D01DC058AB009B8DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A793F11DC058E8009B8DB8 /* xTextProtocol.swift in Sources */,
+				87A793DC1DC058AB009B8DB8 /* SourceEditorExtension.swift in Sources */,
+				87A793EF1DC058E8009B8DB8 /* xTextMatcher.swift in Sources */,
+				87A793EE1DC058E8009B8DB8 /* xTextCommand.swift in Sources */,
+				87A793DE1DC058AB009B8DB8 /* SourceEditorCommand.swift in Sources */,
+				87A793F01DC058E8009B8DB8 /* xTextModifier.swift in Sources */,
+				87A793ED1DC058E8009B8DB8 /* xHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -653,6 +796,11 @@
 			isa = PBXTargetDependency;
 			target = 87A792CD1DC05510009B8DB8 /* OpenCCKit */;
 			targetProxy = 87A792D31DC05510009B8DB8 /* PBXContainerItemProxy */;
+		};
+		87A793E11DC058AB009B8DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87A793D31DC058AB009B8DB8 /* XcodeExtension */;
+			targetProxy = 87A793E01DC058AB009B8DB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -761,12 +909,14 @@
 		87A792C71DC054ED009B8DB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TCKG8FBVG6;
 				INFOPLIST_FILE = OpenCC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = app.cyan.opencc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -776,12 +926,14 @@
 		87A792C81DC054ED009B8DB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TCKG8FBVG6;
 				INFOPLIST_FILE = OpenCC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = app.cyan.opencc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -803,6 +955,7 @@
 				INFOPLIST_FILE = OpenCCKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = app.cyan.opencckit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -827,12 +980,49 @@
 				INFOPLIST_FILE = OpenCCKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = app.cyan.opencckit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87A793E41DC058AB009B8DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = XcodeExtension/XcodeExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TCKG8FBVG6;
+				INFOPLIST_FILE = XcodeExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = app.cyan.opencc.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87A793E51DC058AB009B8DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = XcodeExtension/XcodeExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TCKG8FBVG6;
+				INFOPLIST_FILE = XcodeExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = app.cyan.opencc.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -855,6 +1045,7 @@
 				87A792C81DC054ED009B8DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87A792D71DC05510009B8DB8 /* Build configuration list for PBXNativeTarget "OpenCCKit" */ = {
 			isa = XCConfigurationList;
@@ -863,6 +1054,16 @@
 				87A792D91DC05510009B8DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A793E61DC058AB009B8DB8 /* Build configuration list for PBXNativeTarget "XcodeExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A793E41DC058AB009B8DB8 /* Debug */,
+				87A793E51DC058AB009B8DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

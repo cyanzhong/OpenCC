@@ -21,7 +21,17 @@
   }, {
     "dict": {
       "type": "text",
-      "file": "TWPhrases.txt"
+      "file": "TWPhrasesIT.txt"
+    }
+  }, {
+    "dict": {
+      "type": "text",
+      "file": "TWPhrasesName.txt"
+    }
+  }, {
+    "dict": {
+      "type": "text",
+      "file": "TWPhrasesOther.txt"
     }
   }, {
     "dict": {

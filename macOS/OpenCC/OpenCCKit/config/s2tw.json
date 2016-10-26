@@ -3,7 +3,7 @@
   "segmentation": {
     "type": "mmseg",
     "dict": {
-      "type": "text",
+      "type": "txt",
       "file": "STPhrases.txt"
     }
   },
@@ -11,16 +11,16 @@
     "dict": {
       "type": "group",
       "dicts": [{
-        "type": "text",
+        "type": "txt",
         "file": "STPhrases.txt"
       }, {
-        "type": "text",
+        "type": "txt",
         "file": "STCharacters.txt"
       }]
     }
   }, {
     "dict": {
-      "type": "text",
+      "type": "txt",
       "file": "TWVariants.txt"
     }
   }]

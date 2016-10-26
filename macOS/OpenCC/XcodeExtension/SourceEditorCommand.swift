@@ -20,7 +20,7 @@ extension String {
     }
     
     func s2t() -> String {
-        return self.convert(type: .S2T)
+        return self.convert(type: .S2TWP)
     }
     
     func t2s() -> String {

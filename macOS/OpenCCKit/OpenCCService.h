@@ -32,6 +32,9 @@ typedef NS_ENUM (NSUInteger, OpenCCServiceConverterType) {
 };
 
 @interface OpenCCService : NSObject
--(instancetype)initWithConverterType:(OpenCCServiceConverterType)converterType;
+
+- (instancetype)initWithConverterType:(OpenCCServiceConverterType)converterType;
+
 - (NSString *)convert:(NSString *)str;
+
 @end

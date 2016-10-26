@@ -13,7 +13,7 @@
 
 class SimpleConverter;
 
-@interface OpenCCService (){
+@interface OpenCCService() {
     @private opencc::SimpleConverter *simpleConverter;
 }
 
@@ -21,45 +21,43 @@ class SimpleConverter;
 
 @implementation OpenCCService
 
--(instancetype)initWithConverterType:(OpenCCServiceConverterType)converterType{
-    self = [super init];
-    if(self){
+- (instancetype)initWithConverterType:(OpenCCServiceConverterType)converterType {
+    
+    if (self = [super init]) {
         NSString *json = @"s2t.json";
         switch (converterType) {
             case OpenCCServiceConverterTypeS2T:
-                json=@"s2t.json";
+                json = @"s2t.json";
                 break;
             case OpenCCServiceConverterTypeT2S:
-                json=@"t2s.json";
+                json = @"t2s.json";
                 break;
             case OpenCCServiceConverterTypeS2TW:
-                json=@"s2tw.json";
+                json = @"s2tw.json";
                 break;
             case OpenCCServiceConverterTypeTW2S:
-                json=@"tw2s.json";
+                json = @"tw2s.json";
                 break;
             case OpenCCServiceConverterTypeS2HK:
-                json=@"s2hk.json";
+                json = @"s2hk.json";
                 break;
             case OpenCCServiceConverterTypeHK2S:
-                json=@"hk2s.json";
+                json = @"hk2s.json";
                 break;
             case OpenCCServiceConverterTypeS2TWP:
-                json=@"s2twp.json";
+                json = @"s2twp.json";
                 break;
             case OpenCCServiceConverterTypeTW2SP:
-                json=@"tw2sp.json";
+                json = @"tw2sp.json";
                 break;
             case OpenCCServiceConverterTypeT2HK:
-                json=@"t2hk.json";
+                json = @"t2hk.json";
                 break;
             case OpenCCServiceConverterTypeT2TW:
-                json=@"t2tw.json";
+                json = @"t2tw.json";
                 break;
-                
-            default:json = @"s2t.json";break;
+            default: break;
         }
-        
         NSString *config = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:json];
         const std::string *c = new std::string([config UTF8String]);
         simpleConverter = new opencc::SimpleConverter(*c);
@@ -72,7 +70,7 @@ class SimpleConverter;
     return [NSString stringWithCString:st.c_str() encoding:NSUTF8StringEncoding];
 }
 
--(void)dealloc {
+- (void)dealloc {
     delete simpleConverter;
 }
 

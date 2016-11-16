@@ -20,9 +20,9 @@ typealias xTextModifyHandler = (String) -> (String)
 
 /// Text protocol
 protocol xTextProtocol: XCSourceEditorCommand {
-    
-    /// Handlers map
-    ///
-    /// - returns: [ "commandIdentifier": xTextModifyHandler ]
-    func handlers() -> Dictionary<String, xTextModifyHandler>
+  
+  /// Handlers map
+  ///
+  /// - returns: [ "commandIdentifier": xTextModifyHandler ]
+  func handlers() -> Dictionary<String, xTextModifyHandler>
 }

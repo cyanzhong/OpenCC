@@ -16,5 +16,5 @@
 import Foundation
 
 func xTextLog(string: String) {
-    print("# xTextHandler # \(string)")
+  print("# xTextHandler # \(string)")
 }

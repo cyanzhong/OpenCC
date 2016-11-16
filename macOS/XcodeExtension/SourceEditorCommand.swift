@@ -10,7 +10,7 @@ import Foundation
 import XcodeKit
 
 extension String {
-    
+  
     func convert(type: OpenCCServiceConverterType) -> String {
         if let service = OpenCCService(converterType: type) {
             return service.convert(self)
@@ -20,11 +20,11 @@ extension String {
     }
     
     func s2t() -> String {
-        return self.convert(type: .S2TWP)
+        return convert(type: .S2TWP)
     }
     
     func t2s() -> String {
-        return self.convert(type: .T2S)
+        return convert(type: .T2S)
     }
 }
 

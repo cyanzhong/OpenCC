@@ -355,9 +355,9 @@
 		87A792CF1DC05510009B8DB8 /* OpenCCKit */ = {
 			isa = PBXGroup;
 			children = (
+				87A792F41DC055DB009B8DB8 /* src */,
 				87A792DB1DC055BD009B8DB8 /* darts-clone */,
 				87A792DE1DC055C9009B8DB8 /* rapidjson-0.11 */,
-				87A792F41DC055DB009B8DB8 /* src */,
 				87A793721DC055EB009B8DB8 /* dictionary */,
 				87A7938D1DC055F6009B8DB8 /* config */,
 				87A793B21DC05713009B8DB8 /* OpenCCService.h */,
@@ -378,9 +378,9 @@
 		87A792DE1DC055C9009B8DB8 /* rapidjson-0.11 */ = {
 			isa = PBXGroup;
 			children = (
+				87A792E11DC055C9009B8DB8 /* internal */,
 				87A792DF1DC055C9009B8DB8 /* document.h */,
 				87A792E01DC055C9009B8DB8 /* filestream.h */,
-				87A792E11DC055C9009B8DB8 /* internal */,
 				87A792E51DC055C9009B8DB8 /* prettywriter.h */,
 				87A792E61DC055C9009B8DB8 /* rapidjson.h */,
 				87A792E71DC055C9009B8DB8 /* reader.h */,
@@ -403,6 +403,7 @@
 		87A792F41DC055DB009B8DB8 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				87A793291DC055DB009B8DB8 /* tools */,
 				87A792F51DC055DB009B8DB8 /* BinaryDict.cpp */,
 				87A792F61DC055DB009B8DB8 /* BinaryDict.hpp */,
 				87A792F71DC055DB009B8DB8 /* BinaryDictTest.cpp */,
@@ -454,7 +455,6 @@
 				87A793261DC055DB009B8DB8 /* TextDict.hpp */,
 				87A793271DC055DB009B8DB8 /* TextDictTest.cpp */,
 				87A793281DC055DB009B8DB8 /* TextDictTestBase.hpp */,
-				87A793291DC055DB009B8DB8 /* tools */,
 				87A7932E1DC055DB009B8DB8 /* UTF8StringSlice.cpp */,
 				87A7932F1DC055DB009B8DB8 /* UTF8StringSlice.hpp */,
 				87A793301DC055DB009B8DB8 /* UTF8StringSliceTest.cpp */,

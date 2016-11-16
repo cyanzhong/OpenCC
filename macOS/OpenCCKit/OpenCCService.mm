@@ -23,9 +23,9 @@ class SimpleConverter;
 
 + (NSDictionary *)defaultConfigs {
     static dispatch_once_t onceToken;
-    static NSDictionary *_instance = nil;
+    static NSDictionary *_configs = nil;
     dispatch_once(&onceToken, ^{
-        _instance = @{
+        _configs = @{
             @(OpenCCServiceConverterTypeS2T): @"s2t.json",
             @(OpenCCServiceConverterTypeT2S): @"t2s.json",
             @(OpenCCServiceConverterTypeS2TW): @"s2tw.json",
@@ -38,7 +38,7 @@ class SimpleConverter;
             @(OpenCCServiceConverterTypeT2TW): @"t2tw.json"
         };
     });
-    return _instance;
+    return _configs;
 }
 
 - (void)loadConfig:(NSString *)json {

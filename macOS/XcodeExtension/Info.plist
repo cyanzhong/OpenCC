@@ -32,17 +32,81 @@
 					<key>XCSourceEditorCommandClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
-					<string>traditional</string>
+					<string>s2t.json</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>轉換成繁體</string>
+					<string>簡體到繁體</string>
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
-					<string>simplified</string>
+					<string>t2s.json</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>转换成简体</string>
+					<string>繁體到簡體</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>s2tw.json</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>簡體到臺灣正體</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>tw2s.json</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>臺灣正體到簡體</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>s2hk.json</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>簡體到香港繁體</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>hk2s.json</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>香港繁體到簡體</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>s2twp.json</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>簡體到繁體並轉換爲臺灣常用詞彙</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>tw2sp.json</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>繁體到簡體並轉換爲中國大陸常用詞彙</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>t2hk.json</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>繁體到香港繁體</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>t2tw.json</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>繁體臺灣正體</string>
 				</dict>
 			</array>
 			<key>XCSourceEditorExtensionPrincipalClass</key>

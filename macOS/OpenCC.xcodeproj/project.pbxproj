@@ -28,32 +28,6 @@
 		8735B1E61DC0681F00344232 /* t2tw.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793951DC055F6009B8DB8 /* t2tw.json */; };
 		8735B1E71DC0681F00344232 /* tw2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793961DC055F6009B8DB8 /* tw2s.json */; };
 		8735B1E81DC0681F00344232 /* tw2sp.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793971DC055F6009B8DB8 /* tw2sp.json */; };
-		8735B1E91DC0682300344232 /* HKVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793731DC055EB009B8DB8 /* HKVariants.txt */; };
-		8735B1EA1DC0682300344232 /* HKVariantsPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793741DC055EB009B8DB8 /* HKVariantsPhrases.txt */; };
-		8735B1EB1DC0682300344232 /* HKVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793751DC055EB009B8DB8 /* HKVariantsRevPhrases.txt */; };
-		8735B1EC1DC0682300344232 /* JPVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793761DC055EB009B8DB8 /* JPVariants.txt */; };
-		8735B1ED1DC0682300344232 /* STCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793771DC055EB009B8DB8 /* STCharacters.txt */; };
-		8735B1EE1DC0682300344232 /* STPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793781DC055EB009B8DB8 /* STPhrases.txt */; };
-		8735B1EF1DC0682300344232 /* TSCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793791DC055EB009B8DB8 /* TSCharacters.txt */; };
-		8735B1F01DC0682300344232 /* TSPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937A1DC055EB009B8DB8 /* TSPhrases.txt */; };
-		8735B1F11DC0682300344232 /* TWPhrasesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937B1DC055EB009B8DB8 /* TWPhrasesIT.txt */; };
-		8735B1F21DC0682300344232 /* TWPhrasesName.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937C1DC055EB009B8DB8 /* TWPhrasesName.txt */; };
-		8735B1F31DC0682300344232 /* TWPhrasesOther.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937D1DC055EB009B8DB8 /* TWPhrasesOther.txt */; };
-		8735B1F41DC0682300344232 /* TWVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937E1DC055EB009B8DB8 /* TWVariants.txt */; };
-		8735B1F51DC0682300344232 /* TWVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937F1DC055EB009B8DB8 /* TWVariantsRevPhrases.txt */; };
-		8735B1F61DC0682600344232 /* HKVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793731DC055EB009B8DB8 /* HKVariants.txt */; };
-		8735B1F71DC0682600344232 /* HKVariantsPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793741DC055EB009B8DB8 /* HKVariantsPhrases.txt */; };
-		8735B1F81DC0682600344232 /* HKVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793751DC055EB009B8DB8 /* HKVariantsRevPhrases.txt */; };
-		8735B1F91DC0682600344232 /* JPVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793761DC055EB009B8DB8 /* JPVariants.txt */; };
-		8735B1FA1DC0682600344232 /* STCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793771DC055EB009B8DB8 /* STCharacters.txt */; };
-		8735B1FB1DC0682600344232 /* STPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793781DC055EB009B8DB8 /* STPhrases.txt */; };
-		8735B1FC1DC0682600344232 /* TSCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A793791DC055EB009B8DB8 /* TSCharacters.txt */; };
-		8735B1FD1DC0682600344232 /* TSPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937A1DC055EB009B8DB8 /* TSPhrases.txt */; };
-		8735B1FE1DC0682600344232 /* TWPhrasesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937B1DC055EB009B8DB8 /* TWPhrasesIT.txt */; };
-		8735B1FF1DC0682600344232 /* TWPhrasesName.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937C1DC055EB009B8DB8 /* TWPhrasesName.txt */; };
-		8735B2001DC0682600344232 /* TWPhrasesOther.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937D1DC055EB009B8DB8 /* TWPhrasesOther.txt */; };
-		8735B2011DC0682600344232 /* TWVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937E1DC055EB009B8DB8 /* TWVariants.txt */; };
-		8735B2021DC0682600344232 /* TWVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87A7937F1DC055EB009B8DB8 /* TWVariantsRevPhrases.txt */; };
 		87A792BB1DC054ED009B8DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A792BA1DC054ED009B8DB8 /* AppDelegate.swift */; };
 		87A792BD1DC054ED009B8DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A792BC1DC054ED009B8DB8 /* ViewController.swift */; };
 		87A792BF1DC054ED009B8DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A792BE1DC054ED009B8DB8 /* Assets.xcassets */; };
@@ -127,6 +101,38 @@
 		87A793EF1DC058E8009B8DB8 /* xTextMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A793EA1DC058E8009B8DB8 /* xTextMatcher.swift */; };
 		87A793F01DC058E8009B8DB8 /* xTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A793EB1DC058E8009B8DB8 /* xTextModifier.swift */; };
 		87A793F11DC058E8009B8DB8 /* xTextProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A793EC1DC058E8009B8DB8 /* xTextProtocol.swift */; };
+		87B4B2201DE1FA1B006097B5 /* HKVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2101DE1FA1B006097B5 /* HKVariants.txt */; };
+		87B4B2211DE1FA1B006097B5 /* HKVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2101DE1FA1B006097B5 /* HKVariants.txt */; };
+		87B4B2221DE1FA1B006097B5 /* HKVariantsPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2111DE1FA1B006097B5 /* HKVariantsPhrases.txt */; };
+		87B4B2231DE1FA1B006097B5 /* HKVariantsPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2111DE1FA1B006097B5 /* HKVariantsPhrases.txt */; };
+		87B4B2241DE1FA1B006097B5 /* HKVariantsRev.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2121DE1FA1B006097B5 /* HKVariantsRev.txt */; };
+		87B4B2251DE1FA1B006097B5 /* HKVariantsRev.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2121DE1FA1B006097B5 /* HKVariantsRev.txt */; };
+		87B4B2261DE1FA1B006097B5 /* HKVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2131DE1FA1B006097B5 /* HKVariantsRevPhrases.txt */; };
+		87B4B2271DE1FA1B006097B5 /* HKVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2131DE1FA1B006097B5 /* HKVariantsRevPhrases.txt */; };
+		87B4B2281DE1FA1B006097B5 /* JPVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2141DE1FA1B006097B5 /* JPVariants.txt */; };
+		87B4B2291DE1FA1B006097B5 /* JPVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2141DE1FA1B006097B5 /* JPVariants.txt */; };
+		87B4B22A1DE1FA1B006097B5 /* STCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2151DE1FA1B006097B5 /* STCharacters.txt */; };
+		87B4B22B1DE1FA1B006097B5 /* STCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2151DE1FA1B006097B5 /* STCharacters.txt */; };
+		87B4B22C1DE1FA1B006097B5 /* STPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2161DE1FA1B006097B5 /* STPhrases.txt */; };
+		87B4B22D1DE1FA1B006097B5 /* STPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2161DE1FA1B006097B5 /* STPhrases.txt */; };
+		87B4B22E1DE1FA1B006097B5 /* TSCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2171DE1FA1B006097B5 /* TSCharacters.txt */; };
+		87B4B22F1DE1FA1B006097B5 /* TSCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2171DE1FA1B006097B5 /* TSCharacters.txt */; };
+		87B4B2301DE1FA1B006097B5 /* TSPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2181DE1FA1B006097B5 /* TSPhrases.txt */; };
+		87B4B2311DE1FA1B006097B5 /* TSPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2181DE1FA1B006097B5 /* TSPhrases.txt */; };
+		87B4B2321DE1FA1B006097B5 /* TWPhrasesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2191DE1FA1B006097B5 /* TWPhrasesIT.txt */; };
+		87B4B2331DE1FA1B006097B5 /* TWPhrasesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B2191DE1FA1B006097B5 /* TWPhrasesIT.txt */; };
+		87B4B2341DE1FA1B006097B5 /* TWPhrasesName.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B21A1DE1FA1B006097B5 /* TWPhrasesName.txt */; };
+		87B4B2351DE1FA1B006097B5 /* TWPhrasesName.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B21A1DE1FA1B006097B5 /* TWPhrasesName.txt */; };
+		87B4B2361DE1FA1B006097B5 /* TWPhrasesOther.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B21B1DE1FA1B006097B5 /* TWPhrasesOther.txt */; };
+		87B4B2371DE1FA1B006097B5 /* TWPhrasesOther.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B21B1DE1FA1B006097B5 /* TWPhrasesOther.txt */; };
+		87B4B2381DE1FA1B006097B5 /* TWPhrasesRev.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B21C1DE1FA1B006097B5 /* TWPhrasesRev.txt */; };
+		87B4B2391DE1FA1B006097B5 /* TWPhrasesRev.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B21C1DE1FA1B006097B5 /* TWPhrasesRev.txt */; };
+		87B4B23A1DE1FA1B006097B5 /* TWVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B21D1DE1FA1B006097B5 /* TWVariants.txt */; };
+		87B4B23B1DE1FA1B006097B5 /* TWVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B21D1DE1FA1B006097B5 /* TWVariants.txt */; };
+		87B4B23C1DE1FA1B006097B5 /* TWVariantsRev.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B21E1DE1FA1B006097B5 /* TWVariantsRev.txt */; };
+		87B4B23D1DE1FA1B006097B5 /* TWVariantsRev.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B21E1DE1FA1B006097B5 /* TWVariantsRev.txt */; };
+		87B4B23E1DE1FA1B006097B5 /* TWVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B21F1DE1FA1B006097B5 /* TWVariantsRevPhrases.txt */; };
+		87B4B23F1DE1FA1B006097B5 /* TWVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B4B21F1DE1FA1B006097B5 /* TWVariantsRevPhrases.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -252,19 +258,6 @@
 		87A793311DC055DB009B8DB8 /* UTF8Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UTF8Util.cpp; sourceTree = "<group>"; };
 		87A793321DC055DB009B8DB8 /* UTF8Util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UTF8Util.hpp; sourceTree = "<group>"; };
 		87A793331DC055DB009B8DB8 /* UTF8UtilTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UTF8UtilTest.cpp; sourceTree = "<group>"; };
-		87A793731DC055EB009B8DB8 /* HKVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariants.txt; sourceTree = "<group>"; };
-		87A793741DC055EB009B8DB8 /* HKVariantsPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariantsPhrases.txt; sourceTree = "<group>"; };
-		87A793751DC055EB009B8DB8 /* HKVariantsRevPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariantsRevPhrases.txt; sourceTree = "<group>"; };
-		87A793761DC055EB009B8DB8 /* JPVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JPVariants.txt; sourceTree = "<group>"; };
-		87A793771DC055EB009B8DB8 /* STCharacters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = STCharacters.txt; sourceTree = "<group>"; };
-		87A793781DC055EB009B8DB8 /* STPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = STPhrases.txt; sourceTree = "<group>"; };
-		87A793791DC055EB009B8DB8 /* TSCharacters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TSCharacters.txt; sourceTree = "<group>"; };
-		87A7937A1DC055EB009B8DB8 /* TSPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TSPhrases.txt; sourceTree = "<group>"; };
-		87A7937B1DC055EB009B8DB8 /* TWPhrasesIT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesIT.txt; sourceTree = "<group>"; };
-		87A7937C1DC055EB009B8DB8 /* TWPhrasesName.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesName.txt; sourceTree = "<group>"; };
-		87A7937D1DC055EB009B8DB8 /* TWPhrasesOther.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesOther.txt; sourceTree = "<group>"; };
-		87A7937E1DC055EB009B8DB8 /* TWVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWVariants.txt; sourceTree = "<group>"; };
-		87A7937F1DC055EB009B8DB8 /* TWVariantsRevPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWVariantsRevPhrases.txt; sourceTree = "<group>"; };
 		87A7938E1DC055F6009B8DB8 /* hk2s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hk2s.json; sourceTree = "<group>"; };
 		87A7938F1DC055F6009B8DB8 /* s2hk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = s2hk.json; sourceTree = "<group>"; };
 		87A793901DC055F6009B8DB8 /* s2t.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = s2t.json; sourceTree = "<group>"; };
@@ -288,6 +281,22 @@
 		87A793EA1DC058E8009B8DB8 /* xTextMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xTextMatcher.swift; sourceTree = "<group>"; };
 		87A793EB1DC058E8009B8DB8 /* xTextModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xTextModifier.swift; sourceTree = "<group>"; };
 		87A793EC1DC058E8009B8DB8 /* xTextProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xTextProtocol.swift; sourceTree = "<group>"; };
+		87B4B2101DE1FA1B006097B5 /* HKVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariants.txt; sourceTree = "<group>"; };
+		87B4B2111DE1FA1B006097B5 /* HKVariantsPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariantsPhrases.txt; sourceTree = "<group>"; };
+		87B4B2121DE1FA1B006097B5 /* HKVariantsRev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariantsRev.txt; sourceTree = "<group>"; };
+		87B4B2131DE1FA1B006097B5 /* HKVariantsRevPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariantsRevPhrases.txt; sourceTree = "<group>"; };
+		87B4B2141DE1FA1B006097B5 /* JPVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JPVariants.txt; sourceTree = "<group>"; };
+		87B4B2151DE1FA1B006097B5 /* STCharacters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = STCharacters.txt; sourceTree = "<group>"; };
+		87B4B2161DE1FA1B006097B5 /* STPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = STPhrases.txt; sourceTree = "<group>"; };
+		87B4B2171DE1FA1B006097B5 /* TSCharacters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TSCharacters.txt; sourceTree = "<group>"; };
+		87B4B2181DE1FA1B006097B5 /* TSPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TSPhrases.txt; sourceTree = "<group>"; };
+		87B4B2191DE1FA1B006097B5 /* TWPhrasesIT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesIT.txt; sourceTree = "<group>"; };
+		87B4B21A1DE1FA1B006097B5 /* TWPhrasesName.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesName.txt; sourceTree = "<group>"; };
+		87B4B21B1DE1FA1B006097B5 /* TWPhrasesOther.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesOther.txt; sourceTree = "<group>"; };
+		87B4B21C1DE1FA1B006097B5 /* TWPhrasesRev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesRev.txt; sourceTree = "<group>"; };
+		87B4B21D1DE1FA1B006097B5 /* TWVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWVariants.txt; sourceTree = "<group>"; };
+		87B4B21E1DE1FA1B006097B5 /* TWVariantsRev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWVariantsRev.txt; sourceTree = "<group>"; };
+		87B4B21F1DE1FA1B006097B5 /* TWVariantsRevPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWVariantsRevPhrases.txt; sourceTree = "<group>"; };
 		87CEAF6C1DC05AF8003B6265 /* XcodeExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XcodeExtension-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -478,19 +487,22 @@
 		87A793721DC055EB009B8DB8 /* dictionary */ = {
 			isa = PBXGroup;
 			children = (
-				87A793731DC055EB009B8DB8 /* HKVariants.txt */,
-				87A793741DC055EB009B8DB8 /* HKVariantsPhrases.txt */,
-				87A793751DC055EB009B8DB8 /* HKVariantsRevPhrases.txt */,
-				87A793761DC055EB009B8DB8 /* JPVariants.txt */,
-				87A793771DC055EB009B8DB8 /* STCharacters.txt */,
-				87A793781DC055EB009B8DB8 /* STPhrases.txt */,
-				87A793791DC055EB009B8DB8 /* TSCharacters.txt */,
-				87A7937A1DC055EB009B8DB8 /* TSPhrases.txt */,
-				87A7937B1DC055EB009B8DB8 /* TWPhrasesIT.txt */,
-				87A7937C1DC055EB009B8DB8 /* TWPhrasesName.txt */,
-				87A7937D1DC055EB009B8DB8 /* TWPhrasesOther.txt */,
-				87A7937E1DC055EB009B8DB8 /* TWVariants.txt */,
-				87A7937F1DC055EB009B8DB8 /* TWVariantsRevPhrases.txt */,
+				87B4B2101DE1FA1B006097B5 /* HKVariants.txt */,
+				87B4B2111DE1FA1B006097B5 /* HKVariantsPhrases.txt */,
+				87B4B2121DE1FA1B006097B5 /* HKVariantsRev.txt */,
+				87B4B2131DE1FA1B006097B5 /* HKVariantsRevPhrases.txt */,
+				87B4B2141DE1FA1B006097B5 /* JPVariants.txt */,
+				87B4B2151DE1FA1B006097B5 /* STCharacters.txt */,
+				87B4B2161DE1FA1B006097B5 /* STPhrases.txt */,
+				87B4B2171DE1FA1B006097B5 /* TSCharacters.txt */,
+				87B4B2181DE1FA1B006097B5 /* TSPhrases.txt */,
+				87B4B2191DE1FA1B006097B5 /* TWPhrasesIT.txt */,
+				87B4B21A1DE1FA1B006097B5 /* TWPhrasesName.txt */,
+				87B4B21B1DE1FA1B006097B5 /* TWPhrasesOther.txt */,
+				87B4B21C1DE1FA1B006097B5 /* TWPhrasesRev.txt */,
+				87B4B21D1DE1FA1B006097B5 /* TWVariants.txt */,
+				87B4B21E1DE1FA1B006097B5 /* TWVariantsRev.txt */,
+				87B4B21F1DE1FA1B006097B5 /* TWVariantsRevPhrases.txt */,
 			);
 			path = dictionary;
 			sourceTree = "<group>";
@@ -689,7 +701,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = cyan;
 				TargetAttributes = {
 					87A792B61DC054ED009B8DB8 = {
@@ -735,31 +747,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8735B1FA1DC0682600344232 /* STCharacters.txt in Resources */,
-				8735B1FC1DC0682600344232 /* TSCharacters.txt in Resources */,
 				87A792BF1DC054ED009B8DB8 /* Assets.xcassets in Resources */,
 				8735B1DD1DC0681F00344232 /* tw2s.json in Resources */,
-				8735B2021DC0682600344232 /* TWVariantsRevPhrases.txt in Resources */,
-				8735B2001DC0682600344232 /* TWPhrasesOther.txt in Resources */,
-				8735B1FD1DC0682600344232 /* TSPhrases.txt in Resources */,
 				8735B1D61DC0681F00344232 /* s2hk.json in Resources */,
+				87B4B22C1DE1FA1B006097B5 /* STPhrases.txt in Resources */,
 				8735B1DB1DC0681F00344232 /* t2s.json in Resources */,
+				87B4B2321DE1FA1B006097B5 /* TWPhrasesIT.txt in Resources */,
+				87B4B22E1DE1FA1B006097B5 /* TSCharacters.txt in Resources */,
+				87B4B2261DE1FA1B006097B5 /* HKVariantsRevPhrases.txt in Resources */,
 				8735B1DA1DC0681F00344232 /* t2hk.json in Resources */,
+				87B4B23A1DE1FA1B006097B5 /* TWVariants.txt in Resources */,
+				87B4B2281DE1FA1B006097B5 /* JPVariants.txt in Resources */,
 				8735B1DC1DC0681F00344232 /* t2tw.json in Resources */,
-				8735B1F61DC0682600344232 /* HKVariants.txt in Resources */,
-				8735B1FE1DC0682600344232 /* TWPhrasesIT.txt in Resources */,
+				87B4B2381DE1FA1B006097B5 /* TWPhrasesRev.txt in Resources */,
+				87B4B2361DE1FA1B006097B5 /* TWPhrasesOther.txt in Resources */,
+				87B4B2201DE1FA1B006097B5 /* HKVariants.txt in Resources */,
+				87B4B22A1DE1FA1B006097B5 /* STCharacters.txt in Resources */,
 				8735B1DE1DC0681F00344232 /* tw2sp.json in Resources */,
-				8735B1F71DC0682600344232 /* HKVariantsPhrases.txt in Resources */,
-				8735B1FB1DC0682600344232 /* STPhrases.txt in Resources */,
+				87B4B2221DE1FA1B006097B5 /* HKVariantsPhrases.txt in Resources */,
 				8735B1D51DC0681F00344232 /* hk2s.json in Resources */,
-				8735B1FF1DC0682600344232 /* TWPhrasesName.txt in Resources */,
+				87B4B2301DE1FA1B006097B5 /* TSPhrases.txt in Resources */,
+				87B4B23E1DE1FA1B006097B5 /* TWVariantsRevPhrases.txt in Resources */,
+				87B4B2341DE1FA1B006097B5 /* TWPhrasesName.txt in Resources */,
 				8735B1D81DC0681F00344232 /* s2tw.json in Resources */,
-				8735B1F81DC0682600344232 /* HKVariantsRevPhrases.txt in Resources */,
 				8735B1D91DC0681F00344232 /* s2twp.json in Resources */,
+				87B4B2241DE1FA1B006097B5 /* HKVariantsRev.txt in Resources */,
 				8735B1D71DC0681F00344232 /* s2t.json in Resources */,
-				8735B1F91DC0682600344232 /* JPVariants.txt in Resources */,
+				87B4B23C1DE1FA1B006097B5 /* TWVariantsRev.txt in Resources */,
 				87A792C21DC054ED009B8DB8 /* Main.storyboard in Resources */,
-				8735B2011DC0682600344232 /* TWVariants.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,29 +789,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8735B1EC1DC0682300344232 /* JPVariants.txt in Resources */,
-				8735B1EA1DC0682300344232 /* HKVariantsPhrases.txt in Resources */,
+				87B4B2231DE1FA1B006097B5 /* HKVariantsPhrases.txt in Resources */,
 				8735B1E51DC0681F00344232 /* t2s.json in Resources */,
 				8735B1DF1DC0681F00344232 /* hk2s.json in Resources */,
+				87B4B2331DE1FA1B006097B5 /* TWPhrasesIT.txt in Resources */,
 				8735B1E61DC0681F00344232 /* t2tw.json in Resources */,
-				8735B1F31DC0682300344232 /* TWPhrasesOther.txt in Resources */,
-				8735B1F21DC0682300344232 /* TWPhrasesName.txt in Resources */,
+				87B4B22D1DE1FA1B006097B5 /* STPhrases.txt in Resources */,
+				87B4B2291DE1FA1B006097B5 /* JPVariants.txt in Resources */,
+				87B4B22B1DE1FA1B006097B5 /* STCharacters.txt in Resources */,
 				8735B1E21DC0681F00344232 /* s2tw.json in Resources */,
-				8735B1F01DC0682300344232 /* TSPhrases.txt in Resources */,
+				87B4B23D1DE1FA1B006097B5 /* TWVariantsRev.txt in Resources */,
+				87B4B2371DE1FA1B006097B5 /* TWPhrasesOther.txt in Resources */,
 				8735B1E01DC0681F00344232 /* s2hk.json in Resources */,
-				8735B1F11DC0682300344232 /* TWPhrasesIT.txt in Resources */,
-				8735B1EB1DC0682300344232 /* HKVariantsRevPhrases.txt in Resources */,
-				8735B1EE1DC0682300344232 /* STPhrases.txt in Resources */,
-				8735B1EF1DC0682300344232 /* TSCharacters.txt in Resources */,
 				8735B1E31DC0681F00344232 /* s2twp.json in Resources */,
-				8735B1F51DC0682300344232 /* TWVariantsRevPhrases.txt in Resources */,
-				8735B1ED1DC0682300344232 /* STCharacters.txt in Resources */,
 				8735B1E41DC0681F00344232 /* t2hk.json in Resources */,
+				87B4B2271DE1FA1B006097B5 /* HKVariantsRevPhrases.txt in Resources */,
 				8735B1E11DC0681F00344232 /* s2t.json in Resources */,
 				8735B1E81DC0681F00344232 /* tw2sp.json in Resources */,
 				8735B1E71DC0681F00344232 /* tw2s.json in Resources */,
-				8735B1E91DC0682300344232 /* HKVariants.txt in Resources */,
-				8735B1F41DC0682300344232 /* TWVariants.txt in Resources */,
+				87B4B23F1DE1FA1B006097B5 /* TWVariantsRevPhrases.txt in Resources */,
+				87B4B22F1DE1FA1B006097B5 /* TSCharacters.txt in Resources */,
+				87B4B2211DE1FA1B006097B5 /* HKVariants.txt in Resources */,
+				87B4B2391DE1FA1B006097B5 /* TWPhrasesRev.txt in Resources */,
+				87B4B2351DE1FA1B006097B5 /* TWPhrasesName.txt in Resources */,
+				87B4B2251DE1FA1B006097B5 /* HKVariantsRev.txt in Resources */,
+				87B4B2311DE1FA1B006097B5 /* TSPhrases.txt in Resources */,
+				87B4B23B1DE1FA1B006097B5 /* TWVariants.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -895,6 +913,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -944,6 +963,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1005,7 +1025,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1031,7 +1051,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

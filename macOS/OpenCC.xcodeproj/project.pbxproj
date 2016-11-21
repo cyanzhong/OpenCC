@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872371061DE2CFA6005EFEC8 /* AppDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872371051DE2CFA6005EFEC8 /* AppDefine.swift */; };
 		8735B1D41DC0675100344232 /* OpenCCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A792CE1DC05510009B8DB8 /* OpenCCKit.framework */; };
 		8735B1D51DC0681F00344232 /* hk2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A7938E1DC055F6009B8DB8 /* hk2s.json */; };
 		8735B1D61DC0681F00344232 /* s2hk.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A7938F1DC055F6009B8DB8 /* s2hk.json */; };
@@ -29,7 +30,7 @@
 		8735B1E71DC0681F00344232 /* tw2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793961DC055F6009B8DB8 /* tw2s.json */; };
 		8735B1E81DC0681F00344232 /* tw2sp.json in Resources */ = {isa = PBXBuildFile; fileRef = 87A793971DC055F6009B8DB8 /* tw2sp.json */; };
 		87A792BB1DC054ED009B8DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A792BA1DC054ED009B8DB8 /* AppDelegate.swift */; };
-		87A792BD1DC054ED009B8DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A792BC1DC054ED009B8DB8 /* ViewController.swift */; };
+		87A792BD1DC054ED009B8DB8 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A792BC1DC054ED009B8DB8 /* AppViewController.swift */; };
 		87A792BF1DC054ED009B8DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A792BE1DC054ED009B8DB8 /* Assets.xcassets */; };
 		87A792C21DC054ED009B8DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A792C01DC054ED009B8DB8 /* Main.storyboard */; };
 		87A792D21DC05510009B8DB8 /* OpenCCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A792D01DC05510009B8DB8 /* OpenCCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -178,10 +179,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		872371051DE2CFA6005EFEC8 /* AppDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefine.swift; sourceTree = "<group>"; };
 		87A0D0001DE28C6700CDE01E /* OpenCC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCC-Bridging-Header.h"; sourceTree = "<group>"; };
 		87A792B71DC054ED009B8DB8 /* OpenCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A792BA1DC054ED009B8DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87A792BC1DC054ED009B8DB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87A792BC1DC054ED009B8DB8 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 		87A792BE1DC054ED009B8DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87A792C11DC054ED009B8DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87A792C31DC054ED009B8DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -355,8 +357,9 @@
 		87A792B91DC054ED009B8DB8 /* OpenCC */ = {
 			isa = PBXGroup;
 			children = (
+				872371051DE2CFA6005EFEC8 /* AppDefine.swift */,
 				87A792BA1DC054ED009B8DB8 /* AppDelegate.swift */,
-				87A792BC1DC054ED009B8DB8 /* ViewController.swift */,
+				87A792BC1DC054ED009B8DB8 /* AppViewController.swift */,
 				87A793F21DC05934009B8DB8 /* Supporting Files */,
 			);
 			path = OpenCC;
@@ -828,8 +831,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87A792BD1DC054ED009B8DB8 /* ViewController.swift in Sources */,
+				87A792BD1DC054ED009B8DB8 /* AppViewController.swift in Sources */,
 				87A792BB1DC054ED009B8DB8 /* AppDelegate.swift in Sources */,
+				872371061DE2CFA6005EFEC8 /* AppDefine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

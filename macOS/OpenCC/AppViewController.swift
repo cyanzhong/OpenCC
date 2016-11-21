@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AppViewController.swift
 //  OpenCC
 //
 //  Created by cyan on 2016/10/26.
@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController, NSTextViewDelegate {
+class AppViewController: NSViewController, NSTextViewDelegate {
   
   @IBOutlet var inputTextView: NSTextView!
   @IBOutlet var outputTextView: NSTextView!

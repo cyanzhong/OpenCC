@@ -43,8 +43,12 @@ class SimpleConverter;
 
 - (void)loadConfig:(NSString *)json {
     NSString *config = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:json];
-    const std::string *c = new std::string([config UTF8String]);
-    simpleConverter = new opencc::SimpleConverter(*c);
+    const std::string *fileName = new std::string(config.UTF8String);
+    simpleConverter = new opencc::SimpleConverter(*fileName);
+}
+
+- (void)dealloc {
+    delete simpleConverter;
 }
 
 - (instancetype)initWithConverterType:(OpenCCServiceConverterType)converterType {
@@ -62,13 +66,9 @@ class SimpleConverter;
     return self;
 }
 
-- (NSString *)convert:(NSString *)str {
-    std::string st = simpleConverter->Convert([str UTF8String]);
-    return [NSString stringWithCString:st.c_str() encoding:NSUTF8StringEncoding];
-}
-
-- (void)dealloc {
-    delete simpleConverter;
+- (NSString *)convert:(NSString *)string {
+    std::string result = simpleConverter->Convert(string.UTF8String);
+    return [NSString stringWithCString:result.c_str() encoding:NSUTF8StringEncoding];
 }
 
 @end

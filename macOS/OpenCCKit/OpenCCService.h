@@ -5,6 +5,10 @@
 //  Created by gelosie on 12/4/15.
 //
 
+//  Thanks to (OpenCC iOS port): https://github.com/gelosie/OpenCC
+
+#import <Foundation/Foundation.h>
+
 //  s2t.json Simplified Chinese to Traditional Chinese 簡體到繁體
 //  t2s.json Traditional Chinese to Simplified Chinese 繁體到簡體
 //  s2tw.json Simplified Chinese to Traditional Chinese (Taiwan Standard) 簡體到臺灣正體
@@ -15,9 +19,6 @@
 //  tw2sp.json Traditional Chinese (Taiwan Standard) to Simplified Chinese with Mainland Chinese idiom 繁體（臺灣正體標準）到簡體並轉換爲中國大陸常用詞彙
 //  t2hk.json Traditional Chinese to Traditional Chinese (Hong Kong Standard) 繁體到香港繁體（香港小學學習字詞表標準）
 //  t2tw.json Traditional Chinese to Traditional Chinese (Taiwan Standard) 繁體臺灣正體
-
-#import <Foundation/Foundation.h>
-
 typedef NS_ENUM (NSUInteger, OpenCCServiceConverterType) {
     OpenCCServiceConverterTypeS2T,
     OpenCCServiceConverterTypeT2S,
@@ -50,6 +51,12 @@ typedef NS_ENUM (NSUInteger, OpenCCServiceConverterType) {
  */
 - (instancetype)initWithCommand:(NSString *)command;
 
-- (NSString *)convert:(NSString *)str;
+/**
+ Convert string
+
+ @param string original string
+ @return converted string
+ */
+- (NSString *)convert:(NSString *)string;
 
 @end

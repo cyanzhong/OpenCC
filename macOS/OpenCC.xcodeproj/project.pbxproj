@@ -178,6 +178,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		87A0D0001DE28C6700CDE01E /* OpenCC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCC-Bridging-Header.h"; sourceTree = "<group>"; };
 		87A792B71DC054ED009B8DB8 /* OpenCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A792BA1DC054ED009B8DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87A792BC1DC054ED009B8DB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -568,6 +569,7 @@
 		87A793F21DC05934009B8DB8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				87A0D0001DE28C6700CDE01E /* OpenCC-Bridging-Header.h */,
 				87A792BE1DC054ED009B8DB8 /* Assets.xcassets */,
 				87A792C01DC054ED009B8DB8 /* Main.storyboard */,
 				87A792C31DC054ED009B8DB8 /* Info.plist */,
@@ -707,6 +709,7 @@
 					87A792B61DC054ED009B8DB8 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = TCKG8FBVG6;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					87A792CD1DC05510009B8DB8 = {
@@ -992,6 +995,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TCKG8FBVG6;
@@ -1000,6 +1004,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = app.cyan.opencc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCC/OpenCC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1009,6 +1015,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TCKG8FBVG6;
@@ -1017,6 +1024,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = app.cyan.opencc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCC/OpenCC-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

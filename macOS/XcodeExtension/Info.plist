@@ -82,7 +82,7 @@
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>s2twp.json</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>簡體到繁體並轉換爲臺灣常用詞彙</string>
+					<string>簡體到臺灣常用詞彙</string>
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
@@ -90,7 +90,7 @@
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>tw2sp.json</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>繁體到簡體並轉換爲中國大陸常用詞彙</string>
+					<string>繁體到中國大陸常用詞彙</string>
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>

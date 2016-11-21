@@ -719,10 +719,13 @@
                                 <segmentedCell key="cell" borderStyle="border" alignment="left" style="texturedSquare" trackingMode="selectOne" id="3Vv-5C-XnN">
                                     <font key="font" metaFont="system"/>
                                     <segments>
-                                        <segment label="繁體" width="134" selected="YES"/>
-                                        <segment label="簡體" width="135" tag="1"/>
+                                        <segment label="簡體" width="134"/>
+                                        <segment label="繁体" width="135" selected="YES" tag="1"/>
                                     </segments>
                                 </segmentedCell>
+                                <connections>
+                                    <action selector="segmentedControlDidChange:" target="XfG-lQ-9wD" id="FJf-0D-zcd"/>
+                                </connections>
                             </segmentedControl>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sxy-Kv-l0f">
                                 <rect key="frame" x="46" y="225" width="84" height="17"/>
@@ -742,6 +745,9 @@
                                         <segment label="香港標準" width="90"/>
                                     </segments>
                                 </segmentedCell>
+                                <connections>
+                                    <action selector="segmentedControlDidChange:" target="XfG-lQ-9wD" id="08t-a4-mgS"/>
+                                </connections>
                             </segmentedControl>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="f8X-Aw-fop">
                                 <rect key="frame" x="33" y="196" width="97" height="17"/>
@@ -761,6 +767,9 @@
                                         <segment label="臺灣模式" width="89"/>
                                     </segments>
                                 </segmentedCell>
+                                <connections>
+                                    <action selector="segmentedControlDidChange:" target="XfG-lQ-9wD" id="ei3-QY-f9N"/>
+                                </connections>
                             </segmentedControl>
                             <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Inn-5m-dPJ">
                                 <rect key="frame" x="20" y="40" width="215" height="136"/>
@@ -868,8 +877,12 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="idiomControl" destination="Hrj-DR-rFX" id="8sg-m5-IIY"/>
                         <outlet property="inputTextView" destination="B02-Pn-7L4" id="u4E-Iz-trb"/>
+                        <outlet property="originalControl" destination="x36-F3-8rd" id="dQI-R9-Btu"/>
                         <outlet property="outputTextView" destination="5dD-3v-d3o" id="DsK-FJ-Klr"/>
+                        <outlet property="targetControl" destination="r3i-Ub-HC7" id="UpQ-lo-o5h"/>
+                        <outlet property="variantControl" destination="Dbu-1D-f22" id="QYs-kq-NGy"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

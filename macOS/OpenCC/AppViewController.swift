@@ -8,22 +8,140 @@
 
 import Cocoa
 
+enum SourceType: Int {
+  case simplified = 0
+  case traditional
+}
+
+enum VariantType: Int {
+  case opencc = 0
+  case taiwan
+  case hongkong
+}
+
+enum IdiomType: Int {
+  case disabled = 0
+  case mainland
+  case taiwan
+}
+
 class AppViewController: NSViewController, NSTextViewDelegate {
   
   @IBOutlet var inputTextView: NSTextView!
   @IBOutlet var outputTextView: NSTextView!
   
-  let s2twp = OpenCCService(converterType: .S2TWP)!
+  @IBOutlet weak var originalControl: NSSegmentedControl!
+  @IBOutlet weak var targetControl: NSSegmentedControl!
+  @IBOutlet weak var variantControl: NSSegmentedControl!
+  @IBOutlet weak var idiomControl: NSSegmentedControl!
+  
+  private let s2t = OpenCCService(converterType: .S2T)!
+  private let t2s = OpenCCService(converterType: .T2S)!
+  private let s2tw = OpenCCService(converterType: .S2TW)!
+  private let tw2s = OpenCCService(converterType: .TW2S)!
+  private let s2hk = OpenCCService(converterType: .S2HK)!
+  private let hk2s = OpenCCService(converterType: .HK2S)!
+  private let s2twp = OpenCCService(converterType: .S2TWP)!
+  private let tw2sp = OpenCCService(converterType: .TW2SP)!
+  private let t2hk = OpenCCService(converterType: .T2HK)!
+  private let t2tw = OpenCCService(converterType: .T2TW)!
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+
     
   }
   
   func convert() {
-    if let string = inputTextView.string {
-      outputTextView.string = s2twp.convert(string)
+    
+    guard let string = inputTextView.string else { return }
+    
+    let orig = SourceType(rawValue: originalControl.selectedSegment)
+    let tar = SourceType(rawValue: targetControl.selectedSegment)
+    let variant = VariantType(rawValue: variantControl.selectedSegment)
+    let idiom = IdiomType(rawValue: idiomControl.selectedSegment)
+    
+    var service: OpenCCService?
+    
+    // refer: http://opencc.byvoid.com/js/opencc.js
+    if orig == .simplified {
+      if tar == .simplified {
+        // 簡體到簡體
+      } else if tar == .traditional {
+        // 簡體到繁體
+        if variant == .opencc {
+          // OpenCC 異體字
+          if idiom == .disabled {
+            // 不轉換詞彙
+            service = s2t
+          } else if idiom == .mainland {
+            // 大陸詞彙(TODO)
+          } else if idiom == .taiwan {
+            // 臺灣詞彙(TODO)
+          }
+        } else if variant == .taiwan {
+          // 臺灣異體字
+          if idiom == .disabled {
+            // 不轉換詞彙
+            service = s2tw
+          } else if idiom == .mainland {
+            // 大陸詞彙(TODO)
+          } else if idiom == .taiwan {
+            // 臺灣詞彙
+            service = s2twp
+          }
+        } else if variant == .hongkong {
+          // 香港異體字
+          if idiom == .disabled {
+            // 不轉換詞彙
+            service = s2hk
+          } else if idiom == .mainland {
+            // 大陸詞彙(TODO)
+          } else if idiom == .taiwan {
+            // 臺灣詞彙(TODO)
+          }
+        }
+      }
+    } else if orig == .traditional {
+      if tar == .simplified {
+        // 繁體到簡體
+        if idiom == .disabled {
+          // 不轉換詞彙
+          service = t2s
+        } else if idiom == .mainland {
+          // 大陸詞彙
+          service = tw2sp
+        } else if idiom == .taiwan {
+          // 臺灣詞彙（TODO）
+        }
+      } else if tar == .traditional {
+        // 繁體到繁體
+        if variant == .opencc {
+          // OpenCC異體字
+          if idiom == .disabled {
+            // 不轉換詞彙
+          } else if idiom == .mainland {
+            // 大陸詞彙
+          } else if idiom == .taiwan {
+            // 臺灣詞彙
+          }
+        } else if variant == .taiwan {
+          // 臺灣異體字
+          if idiom == .disabled {
+            // 不轉換詞彙
+          } else if idiom == .mainland {
+            // 大陸詞彙(TODO)
+          } else if idiom == .taiwan {
+            // 臺灣詞彙
+          }
+        }
+      }
+    }
+    
+    if let service = service {
+      outputTextView.string = service.convert(string)
+    } else {
+      outputTextView.string = string
     }
   }
   
@@ -36,14 +154,13 @@ class AppViewController: NSViewController, NSTextViewDelegate {
   }
   
   @IBAction func openGitHub(_ sender: NSButton) {
-    if let url = URL(string: "https://github.com/cyanzhong/OpenCC") {
+    if let url = URL(string: kGitHubURL) {
       NSWorkspace.shared().open(url)
     }
   }
   
   func openPreferences(_ sender: NSButton) {
-    let script = NSAppleScript(source: "tell application \"System Preferences\"\n\tset the current pane to pane \"com.apple.preferences.extensions\"\n\tactivate\nend tell")
-    script?.executeAndReturnError(nil)
+    NSAppleScript(source: kOpenPreferences)?.executeAndReturnError(nil)
   }
 }
 

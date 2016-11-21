@@ -34,6 +34,34 @@ class AppViewController: NSViewController, NSTextViewDelegate {
   @IBOutlet weak var targetControl: NSSegmentedControl!
   @IBOutlet weak var variantControl: NSSegmentedControl!
   @IBOutlet weak var idiomControl: NSSegmentedControl!
+
+  private var originalIndex = UserDefaults.standard.integer(forKey: "originalIndex") {
+    didSet {
+      UserDefaults.standard.set(originalIndex, forKey: "originalIndex")
+      UserDefaults.standard.synchronize()
+    }
+  }
+  
+  private var targetIndex = UserDefaults.standard.integer(forKey: "targetIndex") {
+    didSet {
+      UserDefaults.standard.set(targetIndex, forKey: "targetIndex")
+      UserDefaults.standard.synchronize()
+    }
+  }
+  
+  private var variantIndex = UserDefaults.standard.integer(forKey: "variantIndex") {
+    didSet {
+      UserDefaults.standard.set(variantIndex, forKey: "variantIndex")
+      UserDefaults.standard.synchronize()
+    }
+  }
+  
+  private var idiomIndex = UserDefaults.standard.integer(forKey: "idiomIndex") {
+    didSet {
+      UserDefaults.standard.set(idiomIndex, forKey: "idiomIndex")
+      UserDefaults.standard.synchronize()
+    }
+  }
   
   private let s2t = OpenCCService(converterType: .S2T)!
   private let t2s = OpenCCService(converterType: .T2S)!
@@ -48,8 +76,13 @@ class AppViewController: NSViewController, NSTextViewDelegate {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-
     
+    UserDefaults.standard.register(defaults: ["targetIndex" : SourceType.traditional.rawValue])
+    
+    originalControl.selectedSegment = originalIndex
+    targetControl.selectedSegment = targetIndex
+    variantControl.selectedSegment = variantIndex
+    idiomControl.selectedSegment = idiomIndex
   }
   
   func convert() {
@@ -150,6 +183,18 @@ class AppViewController: NSViewController, NSTextViewDelegate {
   }
   
   @IBAction func segmentedControlDidChange(_ sender: NSSegmentedControl) {
+    
+    let index = sender.selectedSegment
+    if sender == originalControl {
+      originalIndex = index
+    } else if sender == targetControl {
+      targetIndex = index
+    } else if sender == variantControl {
+      variantIndex = index
+    } else if sender == idiomControl {
+      idiomIndex = index
+    }
+    
     convert()
   }
   

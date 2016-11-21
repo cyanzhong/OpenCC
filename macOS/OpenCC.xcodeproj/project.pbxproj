@@ -570,8 +570,8 @@
 			isa = PBXGroup;
 			children = (
 				87A0D0001DE28C6700CDE01E /* OpenCC-Bridging-Header.h */,
-				87A792BE1DC054ED009B8DB8 /* Assets.xcassets */,
 				87A792C01DC054ED009B8DB8 /* Main.storyboard */,
+				87A792BE1DC054ED009B8DB8 /* Assets.xcassets */,
 				87A792C31DC054ED009B8DB8 /* Info.plist */,
 			);
 			name = "Supporting Files";

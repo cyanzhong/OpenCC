@@ -15,5 +15,10 @@ class ViewController: NSViewController {
     
     
   }
+  
+  func openPreferences(_ sender: NSButton) {
+    let script = NSAppleScript(source: "tell application \"System Preferences\"\n\tset the current pane to pane \"com.apple.preferences.extensions\"\n\tactivate\nend tell")
+    script?.executeAndReturnError(nil)
+  }
 }
 

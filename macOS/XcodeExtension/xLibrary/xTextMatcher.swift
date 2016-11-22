@@ -57,9 +57,9 @@ struct xTextMatchResult {
 /// Match selected lines
 class xTextMatcher {
   
-  typealias xTextSelectionLineHandler = (Int, String, String) -> ()
+  private typealias xTextSelectionLineHandler = (Int, String, String) -> ()
   
-  static let xTextInvalidLine = -1 // stand for invalid index
+  private static let xTextInvalidLine = -1 // stand for invalid index
   
   /// Enumerate lines in XCSourceEditorCommandInvocation
   ///

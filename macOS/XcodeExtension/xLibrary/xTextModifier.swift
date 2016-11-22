@@ -20,10 +20,10 @@ import AppKit
 class xTextModifier {
   
   /// Regular expressions
-  static let xTextHandlerStringPattern    = "\"(.+)\""                    // match "abc"
-  static let xTextHandlerHexPattern       = "([0-9a-fA-F]+)"              // match 00FFFF
-  static let xTextHandlerRGBPattern       = "([0-9]+.+[0-9]+.+[0-9]+)"    // match 20, 20, 20 | 20 20 20 ...
-  static let xTextHandlerRadixPattern     = "([0-9]+)"                    // match numbers
+  private static let xTextHandlerStringPattern    = "\"(.+)\""                    // match "abc"
+  private static let xTextHandlerHexPattern       = "([0-9a-fA-F]+)"              // match 00FFFF
+  private static let xTextHandlerRGBPattern       = "([0-9]+.+[0-9]+.+[0-9]+)"    // match 20, 20, 20 | 20 20 20 ...
+  private static let xTextHandlerRadixPattern     = "([0-9]+)"                    // match numbers
   
   /// Select text with regex & default option
   ///

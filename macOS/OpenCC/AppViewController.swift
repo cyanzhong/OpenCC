@@ -205,7 +205,7 @@ class AppViewController: NSViewController, NSTextViewDelegate {
   }
   
   func openPreferences(_ sender: NSButton) {
-    NSAppleScript(source: kOpenPreferences)?.executeAndReturnError(nil)
+    NSWorkspace.shared().open(URL(fileURLWithPath: kOpenPreferences))
   }
 }
 
